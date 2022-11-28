@@ -16,12 +16,13 @@ const BottomTabNavigator = () => {
         tabBarActiveTintColor: "white",
         tabBarInactiveTintColor: "grey",
         tabBarStyle: {
-          backgroundColor: "#181818",
+          backgroundColor: "#181819",
+          paddingTop:8
         },
       }}
     >
       <Tab.Screen
-        name="Home"
+        name="Watch"
         component={HomeScreen}
         options={{
           tabBarIcon: ({ focused, color }) => (
@@ -39,11 +40,11 @@ const BottomTabNavigator = () => {
         }}
       /> */}
       <Tab.Screen
-        name="Watchlist"
+        name="Tracking"
         component={WatchlistScreen}
         options={{
           tabBarIcon: ({ focused, color }) => (
-            <FontAwesome name="star" size={focused ? 30 : 25} color={color} />
+            <FontAwesome name="pencil" size={focused ? 30 : 25} color={color} />
           ),
         }}
       />

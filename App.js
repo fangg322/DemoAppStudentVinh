@@ -6,6 +6,7 @@ import Navigation from "./src/navigation";
 import WatchlistProvider from "./src/Contexts/WatchlistContext";
 import { RecoilRoot } from "recoil";
 import { useFonts, Inter_900Black } from "@expo-google-fonts/inter";
+import { Entypo, FontAwesome, Foundation } from "@expo/vector-icons";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
