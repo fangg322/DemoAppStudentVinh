@@ -198,7 +198,6 @@ const CoinDetailedScreen = () => {
             />
           )}
         </View>
-
         {isCandleChartVisible ? (
           <CandlestickChart.Provider
             data={coinCandleChartData.map(
@@ -257,7 +256,6 @@ const CoinDetailedScreen = () => {
             <LineChart.CursorCrosshair color={chartColor} />
           </LineChart>
         )}
-
         <View style={{ flexDirection: "row" }}>
           <View style={{ flexDirection: "row", flex: 1 }}>
             <Text style={{ color: "white", alignSelf: "center" }}>

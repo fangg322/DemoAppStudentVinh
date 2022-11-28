@@ -29,7 +29,7 @@ const BottomTabNavigator = () => {
           ),
         }}
       />
-      <Tab.Screen
+      {/* <Tab.Screen
         name="Portfolio"
         component={PortfolioScreen}
         options={{
@@ -37,7 +37,7 @@ const BottomTabNavigator = () => {
             <Foundation name="graph-pie" size={focused ? 35 : 30} color={color} />
           ),
         }}
-      />
+      /> */}
       <Tab.Screen
         name="Watchlist"
         component={WatchlistScreen}
